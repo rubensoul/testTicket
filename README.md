@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
+
+## Ticket Init 
+
+Após baixar o projeto, dar o comando `npm install`
+Tela inicial terá os logins e senha de cada usuario cadastrado. Que terão acesso de acordo seu profile previamente cadastrado.
+
+
+## Ticket JWT e FakeBackend 
+
+Existe um Fake Backend para gerenciar o acesso e token de login via RestFul e JWT. Toda configuração já é funcional para uma possível performance de get real de endpoints, precisando adaptar pequenas coisas apenas.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
