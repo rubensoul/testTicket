@@ -1,0 +1,19 @@
+<div class="card mt-4">
+    <h4 class="card-header">Olá {{currentUser.firstName}} </h4>
+    <div class="card-body">
+        <h6></h6>
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+
+        <div *ngIf="currentUser.profile == 'access' || currentUser.profile == 'access2'">
+            <app-painel-a></app-painel-a>
+        </div>
+
+        <div *ngIf="currentUser.profile == 'access1' || currentUser.profile == 'access2'">
+          <app-painel-b></app-painel-b>
+        </div>
+
+      <div *ngIf="currentUser.profile == 'access3'">
+          Nenhum painel
+      </div>
+    </div>
+</div>
